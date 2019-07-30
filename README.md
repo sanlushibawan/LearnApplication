@@ -1,2 +1,0 @@
-# LearnApplication
-for my self
