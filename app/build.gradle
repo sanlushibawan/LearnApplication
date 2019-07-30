@@ -17,7 +17,7 @@ android {
 
         manifestPlaceholders = [
                 JPUSH_PKGNAME : applicationId,
-                JPUSH_APPKEY : "你的 Appkey ", //JPush 上注册的包名对应的 Appkey.
+                JPUSH_APPKEY : "0764cd28d28b008578522532", //JPush 上注册的包名对应的 Appkey.
                 JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
         ]
     }
@@ -44,6 +44,10 @@ dependencies {
     //butterKnife
     implementation 'com.jakewharton:butterknife:10.1.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+    //添加okhttp包
+    implementation 'com.squareup.okhttp3:okhttp:4.0.1'
+    //gson包
+    implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'cn.jiguang.sdk:jpush:3.3.4'  // 此处以JPush 3.3.4 版本为例。
     implementation 'cn.jiguang.sdk:jcore:2.1.2'  // 此处以JCore 2.1.2 版本为例。
 
