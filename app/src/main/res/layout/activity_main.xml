@@ -23,4 +23,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/to_test_driver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="驾照试题练习"/>
 </LinearLayout>
