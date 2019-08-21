@@ -10,8 +10,6 @@ import butterknife.ButterKnife;
 
 public class SecondActivity extends AppCompatActivity {
 
-    @BindView(R.id.driver_text)
-    TextView driverText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

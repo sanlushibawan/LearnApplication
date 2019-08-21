@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 //这里用来练习，framelayout
                 break;
             case R.id.to_test_driver:
-                //驾照考试界面
+                //跳转到第二歌界面
                 Intent intent=new Intent(this,SecondActivity.class);
                 startActivity(intent);
                 break;
